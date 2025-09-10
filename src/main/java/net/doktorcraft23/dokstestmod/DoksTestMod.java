@@ -1,7 +1,6 @@
 package net.doktorcraft23.dokstestmod;
 
 import net.doktorcraft23.dokstestmod.item.ModItems;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
 import org.slf4j.Logger;
 
@@ -41,7 +40,8 @@ public class DoksTestMod {
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.STEELINGOT);
+            event.accept(ModItems.STEEL_INGOT);
+            event.accept(ModItems.MECHANIUM_FRAGMENT);
         }
     }
 

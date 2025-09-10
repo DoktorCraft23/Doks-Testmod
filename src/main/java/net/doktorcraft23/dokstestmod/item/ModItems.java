@@ -9,7 +9,10 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(DoksTestMod.MOD_ID);
 
-    public static final DeferredItem<Item> STEELINGOT = ITEMS.register("steelingot",
+    public static final DeferredItem<Item> STEEL_INGOT = ITEMS.register("steel_ingot",
+            ()-> new Item(new Item.Properties()));
+
+    public static final DeferredItem<Item> MECHANIUM_FRAGMENT = ITEMS.register("mechanium_fragment",
             ()-> new Item(new Item.Properties()));
 
 
