@@ -1,5 +1,6 @@
 package net.doktorcraft23.dokstestmod;
 
+import net.doktorcraft23.dokstestmod.block.ModBlocks;
 import net.doktorcraft23.dokstestmod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import org.slf4j.Logger;
@@ -29,6 +30,7 @@ public class DoksTestMod {
         NeoForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::addCreative);
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
@@ -42,6 +44,11 @@ public class DoksTestMod {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.STEEL_INGOT);
             event.accept(ModItems.MECHANIUM_FRAGMENT);
+        }
+
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.MECHANIUM_BLOCK);
+            event.accept(ModBlocks.STEEL_BLOCK);
         }
     }
 
