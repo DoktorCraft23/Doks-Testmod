@@ -1,6 +1,7 @@
 package net.doktorcraft23.dokstestmod;
 
 import net.doktorcraft23.dokstestmod.block.ModBlocks;
+import net.doktorcraft23.dokstestmod.item.ModCreativeModeTabs;
 import net.doktorcraft23.dokstestmod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import org.slf4j.Logger;
@@ -28,6 +29,8 @@ public class DoksTestMod {
         modEventBus.addListener(this::commonSetup);
 
         NeoForge.EVENT_BUS.register(this);
+
+        ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);

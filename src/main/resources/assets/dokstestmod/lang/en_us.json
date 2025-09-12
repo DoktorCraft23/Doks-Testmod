@@ -1,6 +1,10 @@
 {
   "item.dokstestmod.steel_ingot": "Steel Ingot",
   "item.dokstestmod.mechanium_fragment": "Mechanium Fragment",
+
   "block.dokstestmod.mechanium_block": "Block of Mechanium",
-  "block.dokstestmod.steel_block": "Block of Steel"
+  "block.dokstestmod.steel_block": "Block of Steel",
+
+  "creativetab.dokstestmod.dokstestmoditems": "Doks Tesmod Items",
+  "creativetab.dokstestmod.dokstestmodblocks": "Doks Testmod Blocks"
 }
