@@ -34,6 +34,8 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.MECHANIUM_BLOCK);
                         output.accept(ModBlocks.STEEL_BLOCK);
+                        output.accept(ModBlocks.LEON_BLOCK);
+                        output.accept(ModBlocks.HD_LEON_BLOCK);
                     })
                     .build());
 

@@ -44,15 +44,6 @@ public class DoksTestMod {
     }
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.STEEL_INGOT);
-            event.accept(ModItems.MECHANIUM_FRAGMENT);
-        }
-
-        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
-            event.accept(ModBlocks.MECHANIUM_BLOCK);
-            event.accept(ModBlocks.STEEL_BLOCK);
-        }
     }
 
     @SubscribeEvent
