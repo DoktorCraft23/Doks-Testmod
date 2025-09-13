@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "dokstestmod:mechanium_block"
+    }
+  ],
+  "result": {
+    "id": "dokstestmod:mechanium_fragment",
+    "count": 9
+  }
+}

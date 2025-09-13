@@ -19,11 +19,15 @@ public class ModBlocks {
 
     public static final DeferredBlock<Block> MECHANIUM_BLOCK = registerBlock("mechanium_block",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.HEAVY_CORE)));
+                    .strength(4f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.HEAVY_CORE)));
 
     public static final DeferredBlock<Block> STEEL_BLOCK = registerBlock("steel_block",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+                    .strength(4f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.METAL)));
 
 
 
