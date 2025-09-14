@@ -23,6 +23,7 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.MECHANIUM_FRAGMENT);
                         output.accept(ModItems.STEEL_INGOT);
+                        output.accept(ModItems.COIN);
                     })
                     .build());
 

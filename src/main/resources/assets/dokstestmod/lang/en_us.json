@@ -1,6 +1,7 @@
 {
   "item.dokstestmod.steel_ingot": "Steel Ingot",
   "item.dokstestmod.mechanium_fragment": "Mechanium Fragment",
+  "item.dokstestmod.coin": "Coin",
 
   "block.dokstestmod.mechanium_block": "Block of Mechanium",
   "block.dokstestmod.steel_block": "Block of Steel",

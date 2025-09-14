@@ -1,6 +1,7 @@
 package net.doktorcraft23.dokstestmod.item;
 
 import net.doktorcraft23.dokstestmod.DoksTestMod;
+import net.doktorcraft23.dokstestmod.item.custom.CoinItem;
 import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
@@ -14,6 +15,9 @@ public class ModItems {
 
     public static final DeferredItem<Item> MECHANIUM_FRAGMENT = ITEMS.register("mechanium_fragment",
             ()-> new Item(new Item.Properties()));
+
+    public static final DeferredItem<Item> COIN = ITEMS.register("coin",
+            ()-> new CoinItem(new Item.Properties().durability(64)));
 
 
 

@@ -48,6 +48,6 @@ public class DoksTestMod {
 
     @SubscribeEvent
     public void onServerStarting(ServerStartingEvent event) {
-
+        LOGGER.info("Doks Testmod has sucessfully loaded! :D");
     }
 }
