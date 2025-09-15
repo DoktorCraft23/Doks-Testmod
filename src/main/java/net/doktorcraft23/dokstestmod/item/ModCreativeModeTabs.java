@@ -37,6 +37,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.STEEL_BLOCK);
                         output.accept(ModBlocks.LEON_BLOCK);
                         output.accept(ModBlocks.HD_LEON_BLOCK);
+                        output.accept(ModBlocks.MAGIC_BLOCK);
                     })
                     .build());
 

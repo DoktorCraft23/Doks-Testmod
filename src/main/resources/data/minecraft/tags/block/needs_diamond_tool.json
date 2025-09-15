@@ -1,8 +1,9 @@
 {
   "replace": false,
   "values": [
-    "dokstestmod:mechanium_block"
+    "dokstestmod:mechanium_block",
     "dokstestmod:leon_block",
-    "dokstestmod:hd_leon_block"
+    "dokstestmod:hd_leon_block",
+    "dokstestmod:magic_block"
   ]
 }
