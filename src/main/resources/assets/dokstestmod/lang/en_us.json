@@ -2,12 +2,14 @@
   "item.dokstestmod.steel_ingot": "Steel Ingot",
   "item.dokstestmod.mechanium_fragment": "Mechanium Fragment",
   "item.dokstestmod.coin": "Coin",
+  "item.dokstestmod.uranium_ingot": "Uranium Ingot",
 
   "block.dokstestmod.mechanium_block": "Block of Mechanium",
   "block.dokstestmod.steel_block": "Block of Steel",
   "block.dokstestmod.leon_block": "Block of Leon",
   "block.dokstestmod.hd_leon_block": "High Quality Block of Leon",
   "block.dokstestmod.magic_block": "Magic Block",
+  "block.dokstestmod.uranium_block": "Block of Uranium",
 
   "creativetab.dokstestmod.dokstestmoditems": "Doks Testmod Items",
   "creativetab.dokstestmod.dokstestmodblocks": "Doks Testmod Blocks"

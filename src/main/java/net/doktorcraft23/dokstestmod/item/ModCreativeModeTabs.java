@@ -24,6 +24,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.MECHANIUM_FRAGMENT);
                         output.accept(ModItems.STEEL_INGOT);
                         output.accept(ModItems.COIN);
+                        output.accept(ModItems.URANIUM_INGOT);
                     })
                     .build());
 
@@ -38,6 +39,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.LEON_BLOCK);
                         output.accept(ModBlocks.HD_LEON_BLOCK);
                         output.accept(ModBlocks.MAGIC_BLOCK);
+                        output.accept(ModBlocks.URANIUM_BLOCK);
                     })
                     .build());
 

@@ -4,6 +4,7 @@
     "dokstestmod:mechanium_block",
     "dokstestmod:leon_block",
     "dokstestmod:hd_leon_block",
-    "dokstestmod:magic_block"
+    "dokstestmod:magic_block",
+    "dokstestmod:uranium_block"
   ]
 }

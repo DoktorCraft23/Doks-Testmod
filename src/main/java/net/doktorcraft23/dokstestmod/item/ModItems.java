@@ -2,6 +2,7 @@ package net.doktorcraft23.dokstestmod.item;
 
 import net.doktorcraft23.dokstestmod.DoksTestMod;
 import net.doktorcraft23.dokstestmod.item.custom.CoinItem;
+import net.doktorcraft23.dokstestmod.item.custom.UraniumIngotItem;
 import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
@@ -19,7 +20,8 @@ public class ModItems {
     public static final DeferredItem<Item> COIN = ITEMS.register("coin",
             ()-> new CoinItem(new Item.Properties().durability(64)));
 
-
+    public static final DeferredItem<Item> URANIUM_INGOT = ITEMS.register("uranium_ingot",
+            ()-> new Item(new Item.Properties().food(UraniumIngotItem.URANIUM)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

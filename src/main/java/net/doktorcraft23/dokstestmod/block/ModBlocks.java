@@ -2,6 +2,7 @@ package net.doktorcraft23.dokstestmod.block;
 
 import net.doktorcraft23.dokstestmod.DoksTestMod;
 import net.doktorcraft23.dokstestmod.block.custom.MagicBlock;
+import net.doktorcraft23.dokstestmod.block.custom.UraniumBlock;
 import net.doktorcraft23.dokstestmod.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -38,6 +39,12 @@ public class ModBlocks {
 
     public static final DeferredBlock<Block> HD_LEON_BLOCK = registerBlock("hd_leon_block",
             () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(4f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.METAL)));
+
+    public static final DeferredBlock<Block> URANIUM_BLOCK = registerBlock("uranium_block",
+            () -> new UraniumBlock(BlockBehaviour.Properties.of()
                     .strength(4f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.METAL)));
