@@ -1,6 +1,7 @@
 package net.doktorcraft23.dokstestmod.block.custom;
 
 import net.doktorcraft23.dokstestmod.item.ModItems;
+import net.doktorcraft23.dokstestmod.util.ModTags;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
 import net.minecraft.sounds.SoundEvents;
@@ -34,14 +35,20 @@ public class MagicBlock extends Block {
     @Override
     public void stepOn(Level level, BlockPos pos, BlockState state, Entity entity) {
         if (entity instanceof ItemEntity itemEntity) {
-            if (itemEntity.getItem().getItem() == ModItems.COIN.get()) {
+            if (isValidItem(itemEntity.getItem())) {
                 itemEntity.setItem(new ItemStack(Items.NETHER_STAR, itemEntity.getItem().getCount()));
+                level.playSound(itemEntity, pos, SoundEvents.MOOSHROOM_CONVERT, SoundSource.BLOCKS, 1f, 1f);
             }
             if (itemEntity.getItem().getItem() == ModItems.MECHANIUM_FRAGMENT.get()) {
                 itemEntity.setItem(new ItemStack(Items.DIAMOND_BLOCK, itemEntity.getItem().getCount()));
+                level.playSound(itemEntity, pos, SoundEvents.MOOSHROOM_CONVERT, SoundSource.BLOCKS, 1f, 1f);
             }
         }
         super.stepOn(level, pos, state, entity);
+    }
+
+    private boolean isValidItem(ItemStack item) {
+        return item.is(ModTags.Items.TRANSFORMABLE_ITEM);
     }
 
     @Override
