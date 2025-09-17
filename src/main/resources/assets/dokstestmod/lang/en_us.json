@@ -12,5 +12,10 @@
   "block.dokstestmod.uranium_block": "Block of Uranium",
 
   "creativetab.dokstestmod.dokstestmoditems": "Doks Testmod Items",
-  "creativetab.dokstestmod.dokstestmodblocks": "Doks Testmod Blocks"
+  "creativetab.dokstestmod.dokstestmodblocks": "Doks Testmod Blocks",
+
+  "tooltip.dokstestmod.magic_block_tooltip": "Allows to convert §6Items§r",
+  "tooltip.dokstestmod.coin_tooltip": "Allows to convert §6Blocks§r",
+  "tooltip.dokstestmod.coin_tooltip_shift": "Press §eShift§r to show full §6Tooltip§r",
+  "tooltip.dokstestmod.uranium_ingot_tooltip": "§6Yummy§r and §aRadioactive§r "
 }
