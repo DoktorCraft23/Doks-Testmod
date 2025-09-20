@@ -3,11 +3,11 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "dokstestmod:steel_block"
+      "item": "dokstestmod:magic_block"
     }
   ],
   "result": {
-    "id": "dokstestmod:steel_ingot",
-    "count": 9
+    "count": 9,
+    "id": "dokstestmod:mechanium_fragment"
   }
 }

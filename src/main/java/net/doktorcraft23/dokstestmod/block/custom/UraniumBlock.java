@@ -24,8 +24,8 @@ public class UraniumBlock extends Block {
 
     @Override
     public void stepOn(Level level, BlockPos pos, BlockState state, Entity entity) {
-        if (!entity.isSteppingCarefully() && entity instanceof LivingEntity) {
-            entity.hurt(level.damageSources().hotFloor(), 1.0F);
+        if (entity.onGround() && entity instanceof LivingEntity) {
+            entity.hurt(level.damageSources().magic(), 2.0F);
         }
 
         super.stepOn(level, pos, state, entity);

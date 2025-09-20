@@ -3,11 +3,11 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "dokstestmod:mechanium_block"
+      "item": "dokstestmod:uranium_block"
     }
   ],
   "result": {
-    "id": "dokstestmod:mechanium_fragment",
-    "count": 9
+    "count": 9,
+    "id": "dokstestmod:uranium_ingot"
   }
 }

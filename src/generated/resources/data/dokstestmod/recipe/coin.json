@@ -2,20 +2,20 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "G": {
+    "A": {
+      "item": "dokstestmod:uranium_ingot"
+    },
+    "B": {
       "item": "minecraft:gold_block"
     },
-    "E": {
-      "item": "minecraft:emerald"
-    },
-    "D": {
+    "C": {
       "item": "minecraft:diamond"
     }
   },
   "pattern": [
-    "EGE",
-    "GDG",
-    "EGE"
+    "ABA",
+    "BCB",
+    "ABA"
   ],
   "result": {
     "count": 1,

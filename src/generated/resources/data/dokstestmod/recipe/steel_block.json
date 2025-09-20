@@ -2,14 +2,14 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "S": {
+    "M": {
       "item": "dokstestmod:steel_ingot"
     }
   },
   "pattern": [
-    "SSS",
-    "SSS",
-    "SSS"
+    "MMM",
+    "MMM",
+    "MMM"
   ],
   "result": {
     "count": 1,

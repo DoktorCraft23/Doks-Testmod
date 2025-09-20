@@ -2,20 +2,20 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "G": {
+    "A": {
+      "item": "dokstestmod:mechanium_fragment"
+    },
+    "B": {
       "item": "minecraft:diamond_block"
     },
-    "E": {
-      "item": "dokstestmod:coin"
-    },
-    "D": {
+    "C": {
       "item": "minecraft:nether_star"
     }
   },
   "pattern": [
-    "EGE",
-    "GDG",
-    "EGE"
+    "ABA",
+    "BCB",
+    "ABA"
   ],
   "result": {
     "count": 1,

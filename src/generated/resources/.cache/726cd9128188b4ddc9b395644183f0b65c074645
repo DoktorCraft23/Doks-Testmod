@@ -1,0 +1,4 @@
+// 1.21.1	2025-09-20T17:30:17.2712655	Tags for minecraft:block mod id dokstestmod
+88c9e9dbe80d077bbcafdfcecd7ed1f4853541a0 data/minecraft/tags/block/mineable/hoe.json
+ea9b843c9c8a48682776a06b2b764b09c9b7054e data/minecraft/tags/block/mineable/pickaxe.json
+3c059b18b5cd6e5d42e4e6078b4d3579afdfac80 data/minecraft/tags/block/needs_diamond_tool.json

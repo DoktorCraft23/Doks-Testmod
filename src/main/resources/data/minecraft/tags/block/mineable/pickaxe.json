@@ -1,9 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    "dokstestmod:mechanium_block",
-    "dokstestmod:steel_block",
-    "dokstestmod:magic_block",
-    "dokstestmod:uranium_block"
-  ]
-}
